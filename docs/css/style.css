@@ -208,3 +208,20 @@ body.is-withMagicUnderlines .markup--anchor.markup--pullquote-anchor {
 .graf--pre {
     direction: ltr !important;
 }
+      .section-inner {
+        width: 640px;
+        margin: auto;
+      }
+.section-inner.sectionLayout--fullWidth{
+  width:100%;
+}
+
+section,
+section img {
+    width: 100% !important;
+	max-width: 100%;
+}
+
+blockquote, dd, dl, figure, form, h1, h2, h3, h4, h5, h6, menu, ol, p, pre, ul{
+margin: 45px 0;
+}
